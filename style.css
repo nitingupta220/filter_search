@@ -1,0 +1,11 @@
+input {
+    text-align: center;
+    height: 50px;
+    width: 20%;
+    transition: width 0.9s ease-in-out;
+    outline: none;
+}
+
+input:focus {
+    width: 40%;
+}
